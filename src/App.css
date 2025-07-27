@@ -1,0 +1,148 @@
+body {
+  background-color: #1c1c1c;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  color: #fff;
+}
+
+.container {
+  background: #e53935;
+  border-radius: 20px;
+  padding: 20px 25px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-section img {
+  width: 110px;
+  height: auto;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 10px 0 20px;
+  font-weight: 700;
+}
+
+button {
+  background: #ffeb3b;
+  color: #000;
+  font-size: 18px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.result-text {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.result-win {
+  color: #00ff6a;
+  text-shadow: 0 0 5px #00ff6a, 0 0 15px #00ff6a, 0 0 25px #00ff6a;
+}
+
+.result-lose {
+  color: #ff4d4d;
+  text-shadow: 0 0 5px #ff4d4d, 0 0 15px #ff4d4d, 0 0 25px #ff4d4d;
+}
+
+.share-block {
+  background: rgba(0, 0, 0, 0.1);
+  margin: 18px 0;
+  padding: 18px 12px 22px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.share-block h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.share-preview {
+  width: 140px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.share-btn {
+  background-color: #1da1f2;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.share-btn:hover {
+  background-color: #0c8ed9;
+}
+
+.bonus-text {
+  color: #ffeb3b;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.sound-toggle {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.leaderboard {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.spinny-spin {
+  animation: spinnyAnim 1.2s ease-in-out;
+}
+
+.roulette-spin {
+  animation: rouletteSpin 2s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+@keyframes spinnyAnim {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(15deg) scale(1.1); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+@keyframes rouletteSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(720deg); }
+}
