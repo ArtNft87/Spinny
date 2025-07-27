@@ -1,12 +1,46 @@
-# React + Vite
+# Spinny Roulette 🎰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Spinny Roulette is a lightweight web app that merges entertainment with social sharing. Players spin the wheel, receive a win or loss outcome, and can instantly share meme-based results to X (Twitter). 
 
-Currently, two official plugins are available:
+The game is designed for **engagement virality**, combining animations, sound effects, and randomized outcomes with one-click sharing. Future updates will introduce gamification elements like streaks, rewards, and a global leaderboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Project Overview
+- **Live URL:** [https://spinnit.xyz](https://spinnit.xyz)
+- **Goal:** A playful, viral web app designed for the degen crypto & meme community.
+- **Core Concept:** “Spin, win, and flex your luck online.”
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React (Vite)
+- **Styling:** CSS3 with custom animations
+- **Hosting:** Vercel (custom domain spinnit.xyz)
+- **Assets:** Custom memes, sound effects, and animations
+- **API (Planned):** Leaderboard and analytics endpoints
+
+---
+
+## 🚧 Roadmap
+### **MVP (Current)**
+- Randomized win/loss roulette mechanic.
+- Instant meme preview for X sharing.
+- Win/loss sound effects.
+- Simple leaderboard with score tracking.
+- Responsive design (mobile & desktop).
+
+### **Upcoming Features**
+- **Seasonal Memes:** Rotating meme sets for events and crypto trends.
+- **Spin Streaks:** Bonuses for consecutive spins.
+- **Wallet Integration:** Future token-based spins.
+- **Social Leaderboard:** Global rankings and "Top Spinners".
+- **Analytics Dashboard:** Spin trends & engagement metrics.
+
+---
+
+## 👨‍💻 Team & Ownership
+Spinny Roulette is a private project currently in beta.  
+© 2025 ArtNft87. All rights reserved.
+
+---
